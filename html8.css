@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  margin: 50px auto;
+  width: 960px;
+}
+
+.text {
+  list-style: none;
+  padding: 20px;
+}
+
+.text:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.item {
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box2 {
+  display: flex;
+  margin: 50px auto 10px;
+  width: 960px;
+  flex-wrap: wrap;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.item:nth-child(5) {
+  background-color: orange;
+}
+
+.item:first-child {
+  background-color: orange;
+}
+
+.item:last-child {
+  background-color: orange;
+}
